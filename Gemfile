@@ -38,3 +38,7 @@ gem 'turbolinks'
 
 # To use debugger
 # gem 'debugger'
+gem 'libv8', '~> 3.11.8'
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails'
