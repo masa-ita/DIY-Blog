@@ -38,6 +38,8 @@ gem 'turbolinks'
 
 # To use debugger
 # gem 'debugger'
+gem 'i18n_generators', group: :test
+
 gem 'libv8', '~> 3.11.8'
 gem 'therubyracer'
 gem 'less-rails'

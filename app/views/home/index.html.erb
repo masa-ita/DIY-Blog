@@ -1,0 +1,6 @@
+<% @posts.each do |post| %>
+<p class="lead"><%= post.title %></p>
+<p><%= post.body %></p>
+<p><%= post.published_at %></p>
+<hr/>
+<% end %>

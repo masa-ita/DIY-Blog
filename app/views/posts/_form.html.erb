@@ -8,13 +8,13 @@
   <div class="control-group">
     <%= f.label :body, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :body, :class => 'text_field' %>
+      <%= f.text_area :body, :class => 'text_field' %>
     </div>
   </div>
   <div class="control-group">
     <%= f.label :published_at, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :published_at, :class => 'text_field' %>
+      <%= f.datetime_select :published_at, :allow_nil => true, :class => 'text_field' %>
     </div>
   </div>
 
