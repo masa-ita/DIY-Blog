@@ -2,9 +2,23 @@ ja:
   activerecord:
     models:
       post: ポスト
+      user: ユーザー
 
     attributes:
       post:
         body: 本文
         published_at: 発行日時
         title: タイトル
+        created_at: 登録日時
+      user:
+        email: メールアドレス
+        password: パスワード
+        password_confirmation: パスワード（再入力）
+        created_at: 登録日時
+  helpers:
+    actions: 操作
+    links:
+      edit: 編集
+      destroy: 削除
+      confirm: 確認
+      new: 新規登録
