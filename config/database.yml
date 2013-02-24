@@ -20,6 +20,6 @@ test:
 
 production:
   adapter: postgresql
-  database: diyblog
+  database: diydb
   encoding: UTF-8
   user: rails
