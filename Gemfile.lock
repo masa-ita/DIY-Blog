@@ -123,6 +123,7 @@ GEM
     net-http-persistent (2.8)
     nokogiri (1.5.5)
     ntlm-http (0.1.1)
+    pg (0.14.1)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-test (0.6.2)
@@ -177,6 +178,7 @@ DEPENDENCIES
   jquery-ui-rails
   less-rails
   libv8 (~> 3.11.8)
+  pg
   rails (= 4.0.0.beta)!
   sass-rails (~> 4.0.0.beta)!
   sprockets-rails (~> 2.0.0.rc1)
