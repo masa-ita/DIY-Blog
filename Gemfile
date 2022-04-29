@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.beta', github: 'rails/rails'
-gem 'journey', github: 'rails/journey'
-gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
+gem 'rails', '4.0.0.beta1'
+gem 'journey'
+gem 'activerecord-deprecated_finders'
 
 group :development, :test do
   gem 'sqlite3'
@@ -16,8 +16,8 @@ end
 # in production environments by default.
 group :assets do
   gem 'sprockets-rails', '~> 2.0.0.rc1'
-  gem 'sass-rails',   '~> 4.0.0.beta', github: 'rails/sass-rails'
-  gem 'coffee-rails', '~> 4.0.0.beta', github: 'rails/coffee-rails'
+  gem 'sass-rails'
+  gem 'coffee-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', platforms: :ruby
